@@ -1,0 +1,40 @@
+.popup{
+    display: none;
+    position: absolute;
+    top:100px;
+    right: 190px;
+    padding: 0 50px 60px 60px;
+    background: white;
+    max-width: 475px;
+}
+.active{
+    display:block;
+}
+.popup__close{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+
+}
+.popup__title{
+    display: block;
+    margin: 0;
+    transform: rotate(-90deg) translateY(-160px) translateX(-190px) ;
+    font-size: 36px;
+    font-weight: bold;
+    max-width: 300px;
+}
+.popup__submit-area{
+    display: flex;
+    flex-direction: column;
+}
+.popup__submit{
+    margin-top: 20px;
+}
+.form__input-check{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

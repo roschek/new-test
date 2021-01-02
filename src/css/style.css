@@ -1,0 +1,9 @@
+@import "./normalize.css";
+@import "./header/header.css";
+@import "./main/main.css";
+@import "./footer/footer.css";
+@import "./popup/popup.css";
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
